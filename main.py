@@ -8,7 +8,7 @@ if choice == '1':
     spy_age = default.spy_age
     spy_rating = default.spy_rating
     print ("Hello" + spy_salutation + spy_name)
-    print("Your age is " + spy_age)
+    print ("Your age is " + spy_age)
     print ("Your rating is" + spy_rating)
 else:     
      spy_name = input("Enter your name")
@@ -41,9 +41,9 @@ else:
      else:
         print("You have entered incorrect rating")
         sys.exit(0)
-     print ("Hello" + spy_salutation + spy_name)
-     print("Your age is " + spy_age)
-     print ("Your rating is" + spy_rating)
+     #print ("Hello" + spy_salutation + spy_name)
+     #print("Your age is " + spy_age)
+     #print ("Your rating is" + spy_rating)
 
     
         
