@@ -22,11 +22,15 @@ else:
      spy_age = input("Enter your age")
      if int(spy_age) <= 12:
         print("Age below 12 not allow")
+        sys.exit(0)   
      if int(spy_age) >=50:
         print("Age is above 50 allow")
         sys.exit(0)
         
      spy_rating = input("Enter your rating (A, B or c)")
+     print ("Hello" + spy_salutation + spy_name)
+     print("Your age is " + spy_age)
+     print ("Your rating is" + spy_rating)
 
      if spy_rating == 'A':
         print("You are a 3 star spy")
@@ -37,5 +41,10 @@ else:
      else:
         print("You have entered incorrect rating")
         sys.exit(0)
+     print ("Hello" + spy_salutation + spy_name)
+     print("Your age is " + spy_age)
+     print ("Your rating is" + spy_rating)
+
+    
         
 
