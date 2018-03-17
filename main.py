@@ -24,7 +24,7 @@ else:
         print("Age below 12 not allow")
         sys.exit(0)   
      if int(spy_age) >=50:
-        print("Age is above 50 allow")
+        print("Age is above 50 not allow")
         sys.exit(0)
         
      spy_rating = input("Enter your rating (A, B or c)")
