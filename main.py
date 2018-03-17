@@ -20,12 +20,15 @@ else:
      spy_salutation = input("Enter your Salutaton (Mr. or Mrs.):")
 
      spy_age = input("Enter your age")
-     if int(spy_age) <= 12:
-        print("Age below 12 not allow")
-        sys.exit(0)   
-     if int(spy_age) >=50:
-        print("Age is above 50 not allow")
-        sys.exit(0)
+     if type(spy_age)==int:
+         if int(spy_age) <= 12:
+             print("Age below 12 not allow")
+             sys.exit(0)   
+         if int(spy_age) >=50:
+             print("Age is above 50 not allow")
+             sys.exit(0)
+     else:
+         print("Plz. Enter a valid age")
         
      spy_rating = input("Enter your rating (A, B or c)")
      print ("Hello" + spy_salutation + spy_name)
