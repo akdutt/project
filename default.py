@@ -1,6 +1,8 @@
-#default values
-spy_name=" Bond 007 "
-spy_salutation="Mr. "
-spy_age= " 23 "
-spy_rating = " A "
+#default spy profile
 
+spy = {
+	'name' : 'JBOND',
+	'age' : 23,                        #dictionary
+	'rating' : 4.99,
+	'is_online' : True
+}
