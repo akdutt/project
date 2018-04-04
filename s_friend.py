@@ -2,6 +2,8 @@
 
 friends = [] #list
 import sys
+
+
 def add_friend():
 	new_friend = {
 		'name' : "",

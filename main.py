@@ -14,6 +14,7 @@ def start_chat(spy_name, spy_age, spy_rating):
 			#update status
 			print("You have chosen to add a status")
 			current_status_message = ss.add_status(current_status_message)
+			#print(current_status_message)
 		elif menu_choice == 2:
 			print("You have chosen to add a friend")
 			sf.add_friend()
