@@ -56,7 +56,7 @@ def start_chat():
 	show_menu = True
 	while show_menu:
 		print("\nYou can select one from these operations")
-		print("1. Add Friend\n2. Add Status\n3. Send Secret Message\n4. Read Secret Message\n5. Close application")
+		print("1. Add Friend\n2. Add Status\n3. Send Message\n4. Read Message\n5. Close application")
 		menu_choice = int(raw_input("What do you want to do: "))
 
 		if menu_choice == 1:
